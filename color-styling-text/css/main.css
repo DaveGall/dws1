@@ -1,13 +1,17 @@
 h1 {
 	font-family: Georgia, Times, serif;
 	font-size: 250%;
+	text-shadow: 2px 2px #666666;
 	}
+	
 h2 {
 	font-family: "Gill Sans", Arial, or sans-serif;
 	font-size: 90%;
+	text-transform: uppercase;
 	}
 p {
 	font-family: Arial, Verdana, or sans-serif;
+	line-height: 1.4em;
 	}
 h1, h2, a {
 	font-weight: normal;
@@ -17,6 +21,10 @@ h1, h2, a {
 	}
 h3 { 
 	font-size: 150%;
+	}
+#credits {
+	font-style: italic;
+	text-align: right;
 	}
 
 
