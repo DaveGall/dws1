@@ -1,8 +1,10 @@
 h1 {
 	font-family: Georgia, Times, serif;
+	font-size: 250%;
 	}
 h2 {
 	font-family: "Gill Sans", Arial, or sans-serif;
+	font-size: 90%;
 	}
 p {
 	font-family: Arial, Verdana, or sans-serif;
@@ -13,6 +15,10 @@ h1, h2, a {
 #intro {
 	font-weight: bold;
 	}
+h3 { 
+	font-size: 150%;
+	}
+
 
 
 	
