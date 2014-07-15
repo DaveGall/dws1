@@ -1,14 +1,21 @@
 body {
+	font-family: Arial, Verdana, sans-serif;
 	background-color: rgba(154, 150, 255, .06);
 	}
+@font-face {
+	font-family: 'Cinzel', serif;
+	src: url(http://fonts.googleapis.com/css?family=Cinzel:400,700,900);
+	}
 #page {
+	border-style: outset;
 	background-color: rgba(243, 70, 255, .03);
 	width: 960px;
 	margin: 20px auto 20px auto;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, .05);
+	
 	}
 #top { 
-	
+	text-shadow: 5px 5px 2px rgba(243, 70, 255, .1);
+	font-family: 'Cinzel', serif;
 	color: #40e8ac;
 	text-align: center;
 	margin: 10px auto 20px auto;
@@ -25,14 +32,26 @@ body {
 	text-align: center;
 	margin: 10px auto 20px auto;
 	}
+#pictures {
+	margin-left: 15px;
+	}
 h2, h3 {
+	font-family: 'Cinzel', serif;
+	text-shadow: 5px 5px 2px rgba(243, 70, 255, .1);
+	border-top: 2px double #000000;
+	padding-top: 20px;
+	margin-top: 50px;
 	text-indent: 10px;
+	color: #e88840;
 	}
 p {
+	font-weight: normal;
+	line-height: 1.2em;
 	text-indent: 20px;
 	margin: 0px 15px 0px;
 	}
 .back {
+	margin-top: 15px;
 	text-align: center;
 	}
 ul, ol{
@@ -50,6 +69,43 @@ a:active {
 a:visited {
 	color: #e88840;
 	} 
+figure {
+	width: 240px;
+	height: 160px;
+	padding: 2px;
+	margin: 30px 0px 30px 0px;
+	display: block;
+	border-style: inset;
+	}
+figure:hover {
+	border-style: none;
+	}
+figure:visited {
+	border-style: outset;
+	
+	}
+#orchid {
+	width: 320px;
+	height: 240px;
+	}
+figcaption {
+	padding: 2px;
+	} 
+ul {
+	list-style-type: upper-alpha;
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	
