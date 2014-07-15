@@ -10,6 +10,7 @@ h1 {
 	}
 	
 h2 {
+	background-color: rgba(243, 70, 255, .1);
 	font-family: "Gill Sans", Arial, or sans-serif;
 	font-size: 90%;
 	text-transform: uppercase;
@@ -25,6 +26,8 @@ h1, h2, a {
 	font-weight: bold;
 	}
 h3 { 
+	color: #ffffff;
+	text-shadow: 3px 3px #666666;
 	font-size: 150%;
 	}
 #credits {
