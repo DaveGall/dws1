@@ -1,30 +1,31 @@
 body {
 	font-family: Arial, Verdana, sans-serif;
-	background-color: rgba(154, 150, 255, .06);
+	background-color: rgba(00, 00, 00, .1);
 	}
 @font-face {
 	font-family: 'Cinzel', serif;
 	src: url(http://fonts.googleapis.com/css?family=Cinzel:400,700,900);
 	}
 #page {
-	border-style: outset;
-	background-color: rgba(243, 70, 255, .03);
+	border-style: inset;
+	border-width: 5px;
+	background-color: rgba(243, 70, 255, .06);
 	width: 960px;
 	margin: 20px auto 20px auto;
 	
 	}
 #top { 
-	text-shadow: 5px 5px 2px rgba(243, 70, 255, .1);
+	text-shadow: 5px 5px 2px rgba(243, 70, 255, .2);
 	font-family: 'Cinzel', serif;
-	color: #40e8ac;
+	color: #f346ff;
 	text-align: center;
 	margin: 10px auto 20px auto;
 	font-size: 250%;
 	font-weight: bold;
 	}
 #menu a{
-	
-	border-style: inset;
+	box-shadow: 5px 5px 2px rgba(243, 70, 255, .2);
+	border-style: outset;
 	display: inline;
 	padding: 5px;
 	}
@@ -37,7 +38,7 @@ body {
 	}
 h2, h3 {
 	font-family: 'Cinzel', serif;
-	text-shadow: 5px 5px 2px rgba(243, 70, 255, .1);
+	text-shadow: 5px 5px 2px rgba(243, 70, 255, .2);
 	border-top: 2px double #000000;
 	padding-top: 20px;
 	margin-top: 50px;
@@ -51,6 +52,8 @@ p {
 	margin: 0px 15px 0px;
 	}
 .back {
+	
+	
 	margin-top: 15px;
 	text-align: center;
 	}
