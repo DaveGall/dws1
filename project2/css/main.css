@@ -73,7 +73,7 @@ ul, ol{
 	}
 	/*Sets the normal display for a link.*/
 a:link {
-	text-decoration: underlined 
+	text-decoration: underline; 
 	}
 	/*Sets the display style for when you hover over a link.*/
 a:hover {
