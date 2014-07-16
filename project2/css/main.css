@@ -1,3 +1,4 @@
+/*Main*/
 /*Sets the main background of the browser window and sets the main type set*/
 body {
 	font-family: Arial, Verdana, sans-serif;
@@ -18,7 +19,9 @@ body {
 	margin: 20px auto 20px auto;
 	
 	}
+	/*End Main*/
 	/*This is the top of my page which includes the main header and sets it to the special font family and aligns it to the center of the page.*/
+	/*Navigation/header*/
 #top { 
 	text-shadow: 5px 5px 2px rgba(243, 70, 255, .2);
 	font-family: 'Cinzel', serif;
@@ -41,6 +44,8 @@ body {
 	text-align: center;
 	margin: 10px auto 20px auto;
 	}
+	/*End Navigation and header*/
+	
 	/*This sets the font family to the special type set in the @font-face section. Also gives shadow, border and padding to the text.*/
 h2, h3 {
 	font-family: 'Cinzel', serif;
@@ -71,6 +76,7 @@ ul {
 ul, ol{
 	margin-left: 25px
 	}
+	/*Links styling/Picture box styling*/
 	/*Sets the normal display for a link.*/
 a:link {
 	text-decoration: underline; 
@@ -118,6 +124,7 @@ figure:visited {
 figcaption {
 	margin: 10px auto 20px auto;
 	} 
+	/*End styling*/
 
 
 
