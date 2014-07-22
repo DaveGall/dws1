@@ -21,8 +21,8 @@ body {
 	border-width: 5px;
 	border-radius: 30px;
 	background-color: #e6e6e6;
-	width: 90%;
-	margin: 20px auto 20px auto;
+	width: 100%;
+	margin: 10%px auto 10% auto;
 	
 	}
 .column1, .column2 {
@@ -130,8 +130,8 @@ li a:visited {
 	}
 	 /*Sets the size of the boxes around the pictures and sets the style of the border.*/
 img {
-	width: 240px;
-	height: 160px;
+	width: 15em;
+	height: 10em;
 	padding: 2px auto 2px auto;
 	margin: 30px auto 30px auto;
 	display: block;
