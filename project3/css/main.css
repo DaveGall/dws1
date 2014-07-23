@@ -29,7 +29,7 @@ body {
 .column1, .column2 {
 	border-width: .313em;
 	border-radius: 1.875em;
-	width: 45%;
+	width: 44.5%;
 	float: left;
 	margin: 1%;
 	padding: 1%;
@@ -45,7 +45,7 @@ body {
 	margin-left: 2%;
 	background-color: #e6e6e6;
 	border-style: inset;
-	clear: right;
+	
 	
 	}
 	/*End Main*/
