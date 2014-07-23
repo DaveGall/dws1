@@ -22,10 +22,11 @@ body {
 	border-width: 5%;
 	border-radius: 1.875em;
 	background-color: #e6e6e6;
-	width: 90%;
+	width: 90%;               /*Again I have changed to percentages from pixels to allow for a fluid style.*/
 	margin: 2% auto 10% auto;
 	
 	}
+	/*General set-up for my two columns giving them fluid percentages for proper scaling and floating them left.*/
 .column1, .column2 {
 	border-width: 5%;
 	border-radius: 1.875em;
@@ -34,18 +35,18 @@ body {
 	margin: 1%;
 	padding: 1%;
 	}
-	
+	/*Special instructions for column1 to add a linear gradient and a border style.*/
 .column1 {
 	background: linear-gradient(#f8ffe8,#b7df2d);
 	border-style: inset;
 	}
-
+    /*Special instructions for column2 to add a different linear gradient and to add a little more of a margin to the left side to align with the top of the page.*/
 .column2 {
 	background: linear-gradient(#feffe8, #d6dbbf);
 	margin-left: 2%;
 	background-color: #e6e6e6;
 	border-style: inset;
-	
+	clear: right;
 	
 	}
 	/*End Main*/
@@ -54,15 +55,15 @@ body {
 #top { 
 	text-shadow: .313em .313em .125em rgba(242, 245, 246, .7);
 	font-family: 'Cinzel', serif;
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Arial, Verdana, sans-serif; /*Fallback font.*/
 	color: #6bba70;
 	text-align: center;
-	margin: 4% auto 4% auto;
+	margin: 4% auto 4% auto; /*Changed to percentages to help with my fluid layout and kept the sides at auto to allow for centering.*/
 	font-size: 300%;
 	
 	}
 	
-	/*This creates the inline look of the menu items that access the other headers on the page. I have also added some opacity and padding to make it more legible.*/
+	/*Changed the menu items back to a block layout and added circle style bullets to the items that access the other headers on the page. I have also added some opacity and padding to make it more legible.*/
 #menu li {
 	box-shadow: .313em .313em .125em rgba(243, 70, 255, .2);
 	border-style: outset;
@@ -78,7 +79,7 @@ body {
 	/*This sets the font family to the special type set in the @font-face section. Also gives shadow, border and padding to the text.*/
 h2, h3 {
 	font-family: 'Cinzel', serif;
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Arial, Verdana, sans-serif; /*Default font family added.*/
 	text-shadow: .313em .313em .125em rgba(183, 223, 45, .3);
 	border-top: .125em double #000000;
 	padding-top: 1.25em;
@@ -88,7 +89,7 @@ h2, h3 {
 	text-align: center;
 	color: #e88840;
 	}
-	/*This sets the styling for all the paragraphs on the page.*/
+	/*This sets the styling for all the paragraphs on the page. I changed the margin to 2% to create a fluid structure.*/
 p {
 	font-weight: normal;
 	line-height: 1.2em;
@@ -104,7 +105,7 @@ p {
 ul {
 	list-style-type: upper-alpha;
 	}
-	/*Sets the two lists in 25px to align them inside the paragraphs.*/
+	/*Sets the two lists to indent 6% to align them inside the paragraphs. This allows for a fluid structure.*/
 ul, ol{
 	margin-left: 6%;
 	}
@@ -123,13 +124,13 @@ li a:active {
 	}
 	/*Sets the display for a link that has already been visited when you return to the page.*/
 li a:visited {
-	border-style: dashed;
+	text-decoration: none;
 	}
-	/*Sets the pictures in 15px to align with the paragraphs.*/
+	/*Sets the pictures in the gallery to align in the center of the column..*/
 #pictures {
 	text-align: center;
 	}
-	 /*Sets the size of the boxes around the pictures and sets the style of the border.*/
+	 /*Sets the size of the boxes around the pictures and sets the style of the border. They have been converted to percentages to create a fluid page.*/
 img {
 	width: 50%;
 	height: 25%;
@@ -138,6 +139,7 @@ img {
 	display: block;
 	border-style: inset;
 	}
+	/*Changed the tags for figure to img to access the image and create an animation when clicking.*/
 	/*Sets the hover status of the border.*/
 img:hover {
 	border-style: none;
