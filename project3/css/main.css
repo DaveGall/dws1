@@ -4,8 +4,8 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 	background-image: url("../images/sand-blossom.gif");
 	background-repeat: repeat;
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 1% auto;
 	}
 	/*Font from Google fonts. Using the @font-face and the url to give access to the page.*/
 @font-face {
@@ -17,17 +17,17 @@ body {
 #page {
 	background-image: url("../images/header-background.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left top;
 	border-style: inset;
-	border-width: .313em;
+	border-width: 5%;
 	border-radius: 1.875em;
 	background-color: #e6e6e6;
-	width: 100%;
+	width: 90%;
 	margin: 2% auto 10% auto;
 	
 	}
 .column1, .column2 {
-	border-width: .313em;
+	border-width: 5%;
 	border-radius: 1.875em;
 	width: 44.5%;
 	float: left;
@@ -57,7 +57,7 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 	color: #6bba70;
 	text-align: center;
-	margin: .625em auto 1.25em auto;
+	margin: 4% auto 4% auto;
 	font-size: 300%;
 	
 	}
@@ -68,9 +68,9 @@ body {
 	border-style: outset;
 	border-radius: .625em;
 	list-style-type: circle;
-	padding: .313em;
-	width: 9.375em;
-	margin: .625em 0 .625em 0;
+	padding: 1%;
+	width: 20%;
+	margin: 1% auto 1% auto;
 	}
 
 	/*End Navigation and header*/
@@ -93,11 +93,11 @@ p {
 	font-weight: normal;
 	line-height: 1.2em;
 	text-indent: 1.25em;
-	margin: 0px .938em 0px;
+	margin: 0px 2% 0px;
 	}
 	/*adds some spacing between the text and the link and also centers it. (back to top)*/
 .back {
-	margin-top: .938em;
+	margin-top: 2%;
 	text-align: center;
 	}
 	/*Changes the first list from bullets to upper-case letters.*/
@@ -106,7 +106,7 @@ ul {
 	}
 	/*Sets the two lists in 25px to align them inside the paragraphs.*/
 ul, ol{
-	margin-left: 1.563em
+	margin-left: 6%;
 	}
 	/*Links styling/Picture box styling*/
 	/*Sets the normal display for a link.*/
@@ -131,10 +131,10 @@ li a:visited {
 	}
 	 /*Sets the size of the boxes around the pictures and sets the style of the border.*/
 img {
-	width: 15em;
-	height: 10em;
-	padding: .25em;
-	margin: 1.875em auto 1.875em auto;
+	width: 50%;
+	height: 25%;
+	padding: 3%;
+	margin: 10% auto 10% auto;
 	display: block;
 	border-style: inset;
 	}
@@ -152,7 +152,7 @@ img:visited {
 	}
 	/*Adds some space to the captions of the pictures. */
 figcaption {
-	margin: 10px auto 20px auto;
+	margin: 3% auto 3% auto;
 	} 
 
 	/*End styling*/
