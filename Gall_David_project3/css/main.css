@@ -20,18 +20,19 @@ body {
 	background-repeat: no-repeat;
 	background-position: left top;
 	border-style: inset;
-	border-width: 5%;
+	border-width: .25em;
 	border-radius: 1.875em;
 	background-color: #e6e6e6;
 	width: 90%;               /*Again I have changed to percentages from pixels to allow for a fluid style.*/
 	margin: 2% auto 10% auto;
+	overflow: auto;
 	
 	}
 	/*General set-up for my two columns giving them fluid percentages for proper scaling and floating them left.*/
 .column1, .column2 {
-	border-width: 5%;
+	border-width: .25em;
 	border-radius: 1.875em;
-	width: 44.5%;
+	/*width: 44.5%;*/
 	float: left;
 	margin: 1%;
 	padding: 1%;
@@ -40,6 +41,7 @@ body {
 .column1 {
 	background: linear-gradient(#f8ffe8,#b7df2d);
 	border-style: inset;
+	width: 55%;
 	}
     /*Special instructions for column2 to add a different linear gradient and to add a little more of a margin to the left side to align with the top of the page.*/
 .column2 {
@@ -47,6 +49,7 @@ body {
 	margin-left: 2%;
 	background-color: #e6e6e6;
 	border-style: inset;
+	width: 35%;
 	clear: right;
 	
 	}
@@ -66,15 +69,22 @@ body {
 	
 	/*Changed the menu items back to a block layout and added circle style bullets to the items that access the other headers on the page. I have also added some opacity and padding to make it more legible.*/
 #menu li {
+	background-image: url("../images/globe-icon.png");
+	background-repeat: no-repeat;
+	text-align: right;
+	background-position: left center;
 	box-shadow: .313em .313em .125em rgba(243, 70, 255, .2);
 	border-style: outset;
 	border-radius: .625em;
-	list-style-type: circle;
-	padding: 1%;
-	width: 20%;
-	margin: 1% auto 1% auto;
+	padding: .50em;
+	width: 15%;
+	margin: 0px .50em;
 	font-size: 1em;
+	display: inline-block;
+	
 	}
+	
+
 
 	/*End Navigation and header*/
 	
@@ -97,6 +107,7 @@ p {
 	line-height: 1.2em;
 	text-indent: 1.25em;
 	margin: 0px 2% 0px;
+	
 	}
 	/*adds some spacing between the text and the link and also centers it. (back to top)*/
 .back {
@@ -140,19 +151,20 @@ img {
 	margin: 10% auto 10% auto;
 	display: block;
 	border-style: inset;
+	overflow: auto;
 	}
 	/*Changed the tags for figure to img to access the image and create an animation when clicking.*/
 	/*Sets the hover status of the border.*/
 img:hover {
-	border-style: none;
+	border: .25em solid #666666;
 	}
 	/*Sets the visited status of the border of the pictures.*/
 	
 img:active {
-	border-style: double;
+	border: .25em dashed #666666;
 	}
 img:visited {
-	border-style: outset;
+	border: .25em outset #ffffff;
 	}
 	/*Adds some space to the captions of the pictures. */
 figcaption {
