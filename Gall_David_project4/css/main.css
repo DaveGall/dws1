@@ -1,0 +1,191 @@
+/*Main*/
+/*Sets the main background of the browser window and sets the main type set*/
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background-image: url("../images/sand-blossom.gif");
+	background-repeat: repeat;
+	width: 100%;
+	margin: 1% auto;
+	font-size: 1em;
+	}
+	/*Font from Google fonts. Using the @font-face and the url to give access to the page.*/
+@font-face {
+	font-family: 'Cinzel', serif;
+	src: url(http://fonts.googleapis.com/css?family=Cinzel:400,700,900);
+	
+	}
+	/*This accesses the div that encloses the whole page/text/pictures which allows it to be centered on the web page.*/
+#page {
+	background-image: url("../images/header-background.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-style: inset;
+	border-width: .25em;
+	border-radius: 1.875em;
+	background-color: #e6e6e6;
+	width: 90%;               /*Again I have changed to percentages from pixels to allow for a fluid style.*/
+	margin: 2% auto 10% auto;
+	overflow: auto;
+	
+	}
+	/*General set-up for my two columns giving them fluid percentages for proper scaling and floating them left.*/
+article, aside {
+	border-width: .25em;
+	border-radius: 1.875em;
+	/*width: 44.5%;*/
+	float: left;
+	margin: 1%;
+	padding: 1%;
+	}
+	/*Special instructions for column1 to add a linear gradient and a border style.*/
+article {
+	background: linear-gradient(#f8ffe8,#b7df2d);
+	border-style: inset;
+	width: 55%;
+	}
+    /*Special instructions for column2 to add a different linear gradient and to add a little more of a margin to the left side to align with the top of the page.*/
+aside {
+	background: linear-gradient(#feffe8, #d6dbbf);
+	margin-left: 2%;
+	background-color: #e6e6e6;
+	border-style: inset;
+	width: 35%;
+	clear: right;
+	
+	}
+	/*End Main*/
+	/*This is the top of my page which includes the main header and sets it to the special font family and aligns it to the center of the page.*/
+	/*Navigation/header*/
+header #top { 
+	text-shadow: .313em .313em .125em rgba(242, 245, 246, .7);
+	font-family: 'Cinzel', serif;
+	font-family: Arial, Verdana, sans-serif; /*Fallback font.*/
+	color: #6bba70;
+	text-align: center;
+	margin: 4% auto 4% auto; /*Changed to percentages to help with my fluid layout and kept the sides at auto to allow for centering.*/
+	font-size: 300%;
+	
+	}
+	
+	/*Changed the menu items back to a block layout and added circle style bullets to the items that access the other headers on the page. I have also added some opacity and padding to make it more legible.*/
+nav li {
+	background-image: url("../images/globe-icon.png");
+	background-repeat: no-repeat;
+	text-align: right;
+	background-position: left center;
+	box-shadow: .313em .313em .125em rgba(243, 70, 255, .2);
+	border-style: outset;
+	border-radius: .625em;
+	padding: .50em;
+	width: 15%;
+	margin: 0px .50em;
+	font-size: 1em;
+	display: inline-block;
+	
+	}
+	
+
+
+	/*End Navigation and header*/
+	
+	/*This sets the font family to the special type set in the @font-face section. Also gives shadow, border and padding to the text.*/
+h2, h3 {
+	font-family: 'Cinzel', serif;
+	font-family: Arial, Verdana, sans-serif; /*Default font family added.*/
+	text-shadow: .313em .313em .125em rgba(183, 223, 45, .3);
+	border-top: .125em double #000000;
+	padding-top: 1.25em;
+	background-image: url("../images/globe-icon.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #e88840;
+	}
+	/*This sets the styling for all the paragraphs on the page. I changed the margin to 2% to create a fluid structure.*/
+p {
+	font-weight: normal;
+	line-height: 1.2em;
+	text-indent: 1.25em;
+	margin: 0px 2% 0px;
+	
+	}
+	/*adds some spacing between the text and the link and also centers it. (back to top)*/
+.back {
+	margin-top: 2%;
+	text-align: center;
+	}
+	/*Changes the first list from bullets to upper-case letters.*/
+ul {
+	list-style-type: upper-alpha;
+	}
+	/*Sets the two lists to indent 6% to align them inside the paragraphs. This allows for a fluid structure.*/
+ul, ol{
+	margin-left: 6%;
+	}
+	/*Links styling/Picture box styling*/
+	/*Sets the normal display for a link.*/
+li a:link {
+	text-decoration: underline; 
+	}
+	/*Sets the display style for when you hover over a link.*/
+li a:hover {
+	text-decoration: none;
+	}
+	/*Sets the display style for an actively clicked link.*/
+li a:active {
+	color: #fffe53;
+	}
+	/*Sets the display for a link that has already been visited when you return to the page.*/
+li a:visited {
+	text-decoration: none;
+	}
+	/*Sets the pictures in the gallery to align in the center of the column..*/
+#pictures {
+	text-align: center;
+	}
+	 /*Sets the size of the boxes around the pictures and sets the style of the border. They have been converted to percentages to create a fluid page.*/
+img {
+	width: 50%;
+	height: 25%;
+	padding: 3%;
+	margin: 10% auto 10% auto;
+	display: block;
+	border-style: inset;
+	overflow: auto;
+	}
+	/*Changed the tags for figure to img to access the image and create an animation when clicking.*/
+	/*Sets the hover status of the border.*/
+img:hover {
+	border: .25em solid #666666;
+	}
+	/*Sets the visited status of the border of the pictures.*/
+	
+img:active {
+	border: .25em dashed #666666;
+	}
+img:visited {
+	border: .25em outset #ffffff;
+	}
+	/*Adds some space to the captions of the pictures. */
+figcaption {
+	margin: 3% auto 3% auto;
+	} 
+
+	/*End styling*/
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
