@@ -29,7 +29,7 @@ body {
 	
 	}
 	/*General set-up for my two columns giving them fluid percentages for proper scaling and floating them left.*/
-article, aside {
+article, aside {/*Changed the column 1 and 2 to article and aside to coincide with the changes I made to the HTML*/
 	border-width: .25em;
 	border-radius: 1.875em;
 	/*width: 44.5%;*/
@@ -38,13 +38,13 @@ article, aside {
 	padding: 1%;
 	}
 	/*Special instructions for column1 to add a linear gradient and a border style.*/
-article {
+article {/*Again added article to column 1 */
 	background: linear-gradient(#f8ffe8,#b7df2d);
 	border-style: inset;
 	width: 60%;
 	}
     /*Special instructions for column2 to add a different linear gradient and to add a little more of a margin to the left side to align with the top of the page.*/
-aside {
+aside {/*Aside replaces column 2*/
 	background: linear-gradient(#feffe8, #d6dbbf);
 	margin-left: 2%;
 	background-color: #e6e6e6;
@@ -56,7 +56,7 @@ aside {
 	/*End Main*/
 	/*This is the top of my page which includes the main header and sets it to the special font family and aligns it to the center of the page.*/
 	/*Navigation/header*/
-header #top { 
+header #top { /*header replaces the menu id*/
 	text-shadow: .313em .313em .125em rgba(242, 245, 246, .7);
 	font-family: 'Cinzel', serif;
 	font-family: Arial, Verdana, sans-serif; /*Fallback font.*/
@@ -68,7 +68,7 @@ header #top {
 	}
 	
 	/*Changed the menu items back to a block layout and added circle style bullets to the items that access the other headers on the page. I have also added some opacity and padding to make it more legible.*/
-nav li {
+nav li {/*Nav replaces the menu id for the links*/
 	background-image: url("../images/globe-icon.png");
 	background-repeat: no-repeat;
 	text-align: left;
@@ -123,7 +123,7 @@ ul {
 ul, ol{
 	margin-left: 6%;
 	}
-#dots {
+#dots {/*I added dots to one of my lists*/
 	list-style-type: circle;
 	}
 	/*Links styling/Picture box styling*/
@@ -174,7 +174,7 @@ img:visited {
 figcaption {
 	margin: 3% auto 3% auto;
 	} 
-	
+	/*Footer section added*/
 footer {
 	text-align: center;
 	}
@@ -278,8 +278,9 @@ input#submit {
 /*Table styling*/
 
 table {
+	width: 720px;
 	float:left;
-	
+	text-align: left;
 	border: .313em double #6bba70;
 	border-spacing: 4px;
 	margin-left: 60px;
