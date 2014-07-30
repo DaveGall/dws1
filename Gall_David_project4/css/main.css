@@ -41,7 +41,7 @@ article, aside {
 article {
 	background: linear-gradient(#f8ffe8,#b7df2d);
 	border-style: inset;
-	width: 55%;
+	width: 60%;
 	}
     /*Special instructions for column2 to add a different linear gradient and to add a little more of a margin to the left side to align with the top of the page.*/
 aside {
@@ -49,7 +49,7 @@ aside {
 	margin-left: 2%;
 	background-color: #e6e6e6;
 	border-style: inset;
-	width: 35%;
+	width: 30%;
 	clear: right;
 	
 	}
@@ -71,7 +71,8 @@ header #top {
 nav li {
 	background-image: url("../images/globe-icon.png");
 	background-repeat: no-repeat;
-	text-align: right;
+	text-align: left;
+	text-indent: 2em;
 	background-position: left center;
 	box-shadow: .313em .313em .125em rgba(243, 70, 255, .2);
 	border-style: outset;
@@ -122,6 +123,9 @@ ul {
 ul, ol{
 	margin-left: 6%;
 	}
+#dots {
+	list-style-type: circle;
+	}
 	/*Links styling/Picture box styling*/
 	/*Sets the normal display for a link.*/
 li a:link {
@@ -170,6 +174,109 @@ img:visited {
 figcaption {
 	margin: 3% auto 3% auto;
 	} 
+	
+footer {
+	text-align: center;
+	}
+	
+	
+	/*Form section*/
+	
+/*#contact {
+	width: 70%;
+	padding: 20px 0px 20px 0px;
+	}*/
+	
+fieldset {
+	width: 40%;
+	margin: 20px 0px 20px 20px;
+	border: 3px double #000000;
+	border-radius: 5px;
+	}
+
+legend {
+	font-style: bold;
+	color: #6bba70;
+	font-size: 1.5em;
+	}
+
+input {
+	float: left;
+	margin: 10px;
+	
+	border: 1px solid #6bba70;
+	/*padding: 10px;*/
+	}
+	
+select {
+	float: left;
+	margin: 10px;
+	}
+	
+ input:hover, input:focus {
+ 	background-color: #f8ffe8;
+ 	border: 1px solid #000000;
+ 	}
+ 	
+ textarea:hover, textarea:focus {
+ 	background-color: #f8ffe8;
+ 	border: 1px solid #000000;
+ 	}
+	
+.title {
+	width: 200px;
+	float: left;
+	clear: left;
+	text-align: right;
+	padding: 10px;
+	}
+	
+
+	
+textarea {
+	float: left;
+	border: 1px solid #6bba70;
+	}
+input#submit {
+	width: 50px;
+	color: #ffffff;
+	background-color: #6bba70;
+	float: left;
+	clear: left;
+	}
+	
+/*Table styling*/
+
+table {
+	border: 3px solid #6bba70;
+	border-spacing: collapse;
+	float: right;
+	margin-right: 100px;
+	font-size: 1em;
+	}
+	
+.even {
+	background-color: #c0c0c0;
+	}
+	
+tr:hover {
+	background-color:#00ffff;
+	}
+	
+td, th{
+	padding: 5px;
+	}
+	
+th {
+	background-color: #ccffff;
+	letter-spacing: .05em;
+	font-size: 1.5em;
+	color: #0066ff;
+	border: 1px solid #6bba70;
+	text-shadow: 2px 2px 2px #c8c8c8;
+	}
+
+
 
 	/*End styling*/
 
