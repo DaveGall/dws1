@@ -26,7 +26,7 @@
 			</header>
 		<!-- Below here are my secondary headers with paragraphs and ordered and unordered lists. I have also added id's so that I can link them to the list at the top of the page. -->
 		<!--<div class="column1">-->
-		<article>
+		<article class="all-articles">
 			<section id="beautiful-scenery">
 			<h2 id="scenery">Beautiful Scenery</h2>
 			<hr />
@@ -144,42 +144,38 @@
 	<table>
 		<tr>
 			<th></th>
-			<th scope="col">header 1</th>
-			<th scope="col">header 2</th>
-			<th scope="col">header 3</th>
-			<th scope="col">header 4</th>
+			<th scope="col">Mountain Trails</th>
+			<th scope="col">Desert Trails</th>
+			<th scope="col">River Trails</th>
+			<th scope="col">Lake Trails</th>
 		</tr>
 		<tr class="even">
-			<th scope="row">row 1</th>
-			<td>r1c1</td>
-			<td>r1c2</td>
-			<td>r1c3</td>
-			<td>r1c4</td>
+			<th scope="row">Southern Oregon</th>
+			<td rowspan="2">Abundant</td>
+			<td rowspan="2">None</td>
+			<td colspan="2">Abundant</td>
+			
 		</tr>
 		<tr>
-			<th scope="row">row 2</th>
-			<td>r2c1</td>
-			<td>r2c2</td>
-			<td>r2c3</td>
-			<td>r2c4</td>
+			<th scope="row">Western Oregon</th>
+			<td>Abundant</td>
+			<td>A Few</td>
 		</tr>
 		<tr class="even">
-			<th scope="row">row 3</th>
-			<td>r3c1</td>
-			<td>r3c2</td>
-			<td>r3c3</td>
-			<td>r3c4</td>
+			<th scope="row">Eastern Oregon</th>
+			<td rowspan="2">Plenty</td>
+			<td>Abundant</td>
+			<td rowspan="2">Plenty</td>
+			<td>Abundant</td>
 		</tr>
 		<tr>
-			<th scope="row">row 4</th>
-			<td>r4c1</td>
-			<td>r4c2</td>
-			<td>r4c3</td>
-			<td>r4c4</td>
+			<th scope="row">Northern Oregon</th>
+			<td>A Few</td>
+			<td>Plenty</td>
 		</tr>
 	</table>
 		
-	</table>
+	
 	<div id="contact"><!-- Container for the contact form.-->
 		<form action="http://example.com" method="post">
 			<fieldset>
@@ -188,17 +184,16 @@
 					<label class="title" for="name">Your Name?</label><input type="text" id="name" value="John Doe" required="required"/>
 					<label class="title" for="email">Your Email?</label><input type="email" id="email" value="jd@yahoo.com" required="required"/>
 				</p>
-				<p>
 				
+				<div id="radio">
 					<span class="title">Rate this site:</span>
-					<input type="radio" name="rate" id="a" value="A"/>
+					<input type="radio" class="radio" name="rate" id="a" value="A"/>
 					<label for="a">A</label>
-					<input type="radio" name="rate" id="a+" value="A+"/>
+					<input type="radio" class="radio" name="rate" id="a+" value="A+"/>
 					<label for="a+">A+</label>
-					<input id="a++" type="radio" name="rate" value="A++"/>
+					<input id="a++" type="radio" class="radio" name="rate" value="A++"/>
 					<label for="a++">A++</label>
-			
-				</p>
+				</div>
 				<p>
 				<label class="title" for="about">Referred by?</label>
 				<select name="referrer" id="about">
@@ -210,8 +205,8 @@
 					<option value="animal">Animal</option>
 				</select>
 				</p>
-				<p class="title" id="comments">Comments or Suggestions</p>
-				<textarea name="comments" cols="20" rows="4">Enter text here</textarea>
+				<label for="comments" class="title">Comments or Suggestions</label>
+				<textarea id="comments" name="comments" cols="20" rows="4">Enter text here</textarea>
 				<input id="submit" type="submit" name="submit" value="Submit" />
 			</fieldset>
 		</form>

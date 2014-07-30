@@ -182,30 +182,45 @@ footer {
 	
 	/*Form section*/
 	
-/*#contact {
-	width: 70%;
-	padding: 20px 0px 20px 0px;
-	}*/
+#contact {
+	float: left;
+	clear:left;
+	}
 	
 fieldset {
-	width: 40%;
-	margin: 20px 0px 20px 20px;
-	border: 3px double #000000;
-	border-radius: 5px;
+	background-color: #D6FFD6;
+	width: 400px;
+	float: left;
+	margin: 20px 0px 20px 160px;
+	border: .188em double #000000;
+	border-radius: .625em;
+	box-shadow: .313em .313em .125em #c8c8c8;
+	overflow: hidden;
 	}
+	
+label { 
+	float:left; 
+	clear:none; 
+	display: inline; 
+	padding: 10px 0px 0 6px; }
+	
+input[type=radio], input.radio { 
+	float:left; 
+	clear: none; 
+	margin: 12px 0 0 17px; }
 
 legend {
-	font-style: bold;
-	color: #6bba70;
+	font-style: italic;
+	color: #3D663D;
 	font-size: 1.5em;
 	}
 
 input {
+	display: inline;
 	float: left;
+	clear: none;
 	margin: 10px;
-	
-	border: 1px solid #6bba70;
-	/*padding: 10px;*/
+	border: .125em solid #6bba70;
 	}
 	
 select {
@@ -215,44 +230,61 @@ select {
 	
  input:hover, input:focus {
  	background-color: #f8ffe8;
- 	border: 1px solid #000000;
+ 	border: .125em solid #000000;
  	}
  	
  textarea:hover, textarea:focus {
  	background-color: #f8ffe8;
- 	border: 1px solid #000000;
+ 	border: .125em solid #000000;
+ 	}
+ 	
+ textarea {
+ 	margin-left: 18px;
  	}
 	
 .title {
-	width: 200px;
+	width: 150px;
 	float: left;
 	clear: left;
 	text-align: right;
 	padding: 10px;
 	}
 	
+#radio {
+	float: left;
+	
+	text-align: right;
+	padding: 0px;
+	}
+	
 
 	
 textarea {
 	float: left;
-	border: 1px solid #6bba70;
+	border: .125em solid #6bba70;
 	}
 input#submit {
-	width: 50px;
+	width: 80px;
+	margin-top: 20px;
+	margin-right: 50px;
 	color: #ffffff;
 	background-color: #6bba70;
-	float: left;
-	clear: left;
+	float: right;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #A3FFA3;
+	
 	}
 	
 /*Table styling*/
 
 table {
-	border: 3px solid #6bba70;
-	border-spacing: collapse;
-	float: right;
-	margin-right: 100px;
-	font-size: 1em;
+	float:left;
+	
+	border: .313em double #6bba70;
+	border-spacing: 4px;
+	margin-left: 60px;
+	font-size: 1.2em;
+	box-shadow: .313em .313em .125em #c8c8c8;
 	}
 	
 .even {
@@ -268,13 +300,15 @@ td, th{
 	}
 	
 th {
-	background-color: #ccffff;
+	background-color: #D6EBFF;
 	letter-spacing: .05em;
-	font-size: 1.5em;
-	color: #0066ff;
+	font-size: 1em;
+	color: #297ACC;
 	border: 1px solid #6bba70;
-	text-shadow: 2px 2px 2px #c8c8c8;
+	text-shadow: .125em .125em .125em #c8c8c8;
 	}
+	
+
 
 
 
